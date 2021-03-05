@@ -50,6 +50,15 @@ public class MyGdxGame extends ApplicationAdapter {
 		if(Gdx.input.isKeyPressed(Input.Keys.UP)){
 			yPos += 20;
 		}
+		if(Gdx.input.isKeyJustPressed(Input.Keys.DOWN)){
+			yPos -=20;
+		}
+		if(Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)){
+			xPos += 20;
+		}
+		if(Gdx.input.isKeyJustPressed(Input.Keys.LEFT)){
+			xPos -= 20;
+		}
 
 	}
 	@Override
